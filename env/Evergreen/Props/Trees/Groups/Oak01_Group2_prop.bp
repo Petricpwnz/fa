@@ -15,7 +15,7 @@ PropBlueprint {
             LODs = {
                 {
                     AlbedoName = '../oak01_s1_albedo.dds',
-                    LODCutoff = 30,
+                    LODCutoff = 60,
                     NormalsName = '../oak01_s1_normalsTS.dds',
                     ShaderName = 'UndulatingNormalMappedAlpha',
                 },
@@ -27,7 +27,7 @@ PropBlueprint {
                 },
                 {
                     AlbedoName = 'oak01_Group2_LOD2_albedo.dds',
-                    LODCutoff = 750,
+                    LODCutoff = 1000,
                     ShaderName = 'VertexNormal',
                 },
             },

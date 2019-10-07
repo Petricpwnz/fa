@@ -236,7 +236,7 @@ UnitBlueprint {
         },
         FactionName = 'Seraphim',
         Icon = 'sea',
-        TechLevel = 'RULEUTL_Basic',
+        TechLevel = 'RULEUTL_Secret',
         UnitName = '<LOC xss0304_name>Yathsou',
         UnitWeight = 1,
     },
@@ -344,7 +344,8 @@ UnitBlueprint {
             TargetPriorities = {
                 'SPECIALHIGHPRI',
                 'SUBMERSIBLE',
-                'STRUCTURE DEFENSE',
+                '(STRUCTURE * DEFENSE - ANTIAIR)',
+                '(TECH2 * MOBILE * NAVAL - CRUISER)',
                 'MOBILE',
                 'SPECIALLOWPRI',
                 'ALLUNITS',

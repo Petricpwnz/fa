@@ -259,7 +259,7 @@ UnitBlueprint {
                 helpText = 'toggle_stealth_field',
             },
         },
-        TechLevel = 'RULEUTL_Secret',
+        TechLevel = 'RULEUTL_Experimental',
         ToggleCaps = {
             RULEUTC_StealthToggle = true,
         },
@@ -772,7 +772,8 @@ UnitBlueprint {
             TargetPriorities = {
                 'SPECIALHIGHPRI',
                 'SUBMERSIBLE',
-                'STRUCTURE DEFENSE',
+                '(STRUCTURE * DEFENSE - ANTIAIR)',
+                '(TECH2 * MOBILE * NAVAL - CRUISER)',
                 'MOBILE',
                 'SPECIALLOWPRI',
                 'ALLUNITS',
@@ -792,7 +793,7 @@ UnitBlueprint {
             Damage = 4000,
             DamageFriendly = true,
             DamageRadius = 7,
-            DamageType = 'Normal',
+            DamageType = 'DeathExplosion',
             DisplayName = 'Death Weapon',
             DummyWeapon = true,
             Label = 'DeathWeapon',

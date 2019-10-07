@@ -255,7 +255,7 @@ UnitBlueprint {
         },
         FactionName = 'Cybran',
         Icon = 'amph',
-        TechLevel = 'RULEUTL_Secret',
+        TechLevel = 'RULEUTL_Experimental',
         UnitName = '<LOC xrl0403_name>Megalith',
         UnitWeight = 1,
     },
@@ -405,7 +405,7 @@ UnitBlueprint {
             TurretYawRange = 55,
             TurretYawSpeed = 45,
             Turreted = true,
-            WeaponCategory = 'Direct Fire Naval',
+            WeaponCategory = 'Direct Fire',
         },
         {
             AboveWaterFireOnly = true,
@@ -495,7 +495,7 @@ UnitBlueprint {
             TurretYawRange = 55,
             TurretYawSpeed = 45,
             Turreted = true,
-            WeaponCategory = 'Direct Fire Naval',
+            WeaponCategory = 'Direct Fire',
         },
         {
             Audio = {
@@ -799,7 +799,7 @@ UnitBlueprint {
             Damage = 7500,
             DamageFriendly = true,
             DamageRadius = 4,
-            DamageType = 'Normal',
+            DamageType = 'DeathExplosion',
             DisplayName = 'Megalith Death',
             DummyWeapon = true,
             Label = 'MegalithDeath',

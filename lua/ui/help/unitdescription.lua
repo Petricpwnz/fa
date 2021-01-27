@@ -26,22 +26,25 @@ Description = {
 
     -- UEF -- Support Commander Units/Upgrades
     ['uel0301'] = "<LOC Unit_Description_0016> A multi-purpose construction, repair, capture and reclamation unit. Equivalent to a Tech 3 Engineer. ",
-    ['uel0301-ed'] = "<LOC Unit_Description_0017> Engineering Drone acts as a secondary Engineer. Assists the SACU where applicable.",
+    ['uel0301-led'] = "<LOC Unit_Description_0017> Engineering Drone acts as a secondary Engineer. Assists the SACU where applicable.",
+	['uel0301-red'] = "<LOC Unit_Description_0017> Engineering Drone acts as a secondary Engineer. Assists the SACU where applicable.",
     ['uel0301-psg'] = "<LOC Unit_Description_0018> Creates a protective shield around the SACU. Requires Energy to run.",
     ['uel0301-sgf'] = "<LOC Unit_Description_0019> Expands the radius of the SACU's personal shield. Requires Energy to run.",
     ['uel0301-rj'] = "<LOC Unit_Description_0020>Radar Jammer creates false radar images. Countered by Omni sensors.",
     ['uel0301-isb'] = "<LOC Unit_Description_0021> Increases SACU's resource generation.",
     ['uel0301-sre'] = "<LOC Unit_Description_0022>Greatly expands the range of the standard on-board SACU sensor systems.",
     ['uel0301-acu'] = "<LOC Unit_Description_0023>Rapidly cools any weapon mounted onto the SACU. Increases rate of fire.",
-    ['uel0301-heo'] = "<LOC Unit_Description_0024>Equips the standard SACU Heavy plasma cannon with area-of-effect damage.",
+    ['uel0301-heo'] = "<LOC Unit_Description_0024>Equips the standard SACU with a napalm granade launcher damage.",
 
     -- UEF -- Support Commander Presets
     ['uel0301_BubbleShield'] = "<LOC uel0301_BubbleShield_help>Support Armored Command Unit. Enhanced during construction with the bubble shield generator enhancement.",
-    ['uel0301_Combat'] = "<LOC uel0301_Combat_help>Support Armored Command Unit. Enhanced during construction with the energy accelerator and heavy plasma refractor enhancements.",
-    ['uel0301_Engineer'] = "<LOC uel0301_Engineer_help>Support Armored Command Unit. Enhanced during construction with the engineering drone enhancement.",
+    ['uel0301_Combat'] = "<LOC uel0301_Combat_help>Support Armored Command Unit. Enhanced during construction with personal shield and gun speed upgrade.",
+    ['uel0301_Engineer'] = "<LOC uel0301_Engineer_help>Support Armored Command Unit. Enhanced during construction with 2 engineering drone enhancements.",
     ['uel0301_IntelJammer'] = "<LOC uel0301_IntelJammer_help>Support Armored Command Unit. Enhanced during construction with the radar jammer and enhanced sensor system enhancements.",
-    ['uel0301_Rambo'] = "<LOC uel0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a personal shield, energy accelerator and heavy plasma refractor enhancements.",
+    ['uel0301_Rambo'] = "<LOC uel0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a personal shield, gun speed and granade launcher enhancements.",
     ['uel0301_RAS'] = "<LOC uel0301_RAS_help>Support Armored Command Unit. Enhanced during construction with a Resource Allocation System.",
+	['uel0301_Support'] = "<LOC uel0301_Support_help>Support Armored Command Unit. Enhanced during construction with a bubble shield, jamming and 2 drones.",
+	['uel0301_BasicCombat'] = "<LOC uel0301_Support_help>Support Armored Command Unit. Enhanced during construction with the AdvancedCoolingUpgrade.",
 
     -- UEF -- Land Units
     ['uel0101'] = "<LOC Unit_Description_0025>Fast, lightly armored reconnaissance vehicle. Armed with a machine gun and a state-of-the-art sensor suite.",
@@ -176,23 +179,27 @@ Description = {
 
     -- CYBRAN -- Support Commander Units/Upgrades
     ['url0301'] = "<LOC Unit_Description_0115> A multi-purpose construction, repair, capture and reclamation unit. Equivalent to a Tech 3 Engineer.",
-    ['url0301-cfs'] = "<LOC Unit_Description_0116> Cloaks the SACU from optical sensors. Can be detected by Omni Sensors. Requires Energy to run.",
+   -- ['url0301-cfs'] = "<LOC Unit_Description_0116> Cloaks the SACU from optical sensors. Can be detected by Omni Sensors. Requires Energy to run.",
     ['url0301-emp'] = "<LOC Unit_Description_0117>EMP burst effectively disables enemy units for a few seconds.",
     ['url0301-fc'] = "<LOC Unit_Description_0118> Greatly enhances the pulse laser's cohesion, almost doubling its damage output.",
     ['url0301-nms'] = "<LOC Unit_Description_0119>Adds AA defensive system.",
     ['url0301-ras'] = "<LOC Unit_Description_0120> Increases SACU's resource generation.",
     ['url0301-ses'] = "<LOC Unit_Description_0121>Speeds up all engineering-related functions.",
     ['url0301-srs'] = "<LOC Unit_Description_0122> Greatly increases the speed at which the SACU repairs itself.",
-    ['url0301-sfs'] = "<LOC Unit_Description_0123> Hides the SACU from radar. Requires Energy to run.",
-
+    ['url0301-sfs'] = "<LOC Unit_Description_0466> Stealth field.",
+	['url0301-cfs'] = "<LOC Unit_Description_0465> Acceleration field.",
+	
+--LOC Unit_Description_0466
     -- CYBRAN -- Support Commander Presets
     ['url0301_AntiAir'] = "<LOC url0301_AntiAir_help>Support Armored Command Unit. Enhanced during construction with the nanite missile system enhancement.",
     ['url0301_Cloak'] = "<LOC url0301_Cloak_help>Support Armored Command Unit. Enhanced during construction with the personal cloaking generator and dis-integrator amplifier enhancements.",
-    ['url0301_Combat'] = "<LOC url0301_Combat_help>Support Armored Command Unit. Enhanced during construction with the EMP burst and dis-integrator amplifier enhancements.",
+    ['url0301_Combat'] = "<LOC url0301_Combat_help>Support Armored Command Unit. Enhanced during construction with the dis-integrator amplifier enhancement.",
     ['url0301_Engineer'] = "<LOC url0301_Engineer_help>Support Armored Command Unit. Enhanced during construction with the rapid fabricator enhancement.",
     ['url0301_Rambo'] = "<LOC url0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with the EMP burst, dis-integrator amplifier and nano-repair system enhancements.",
     ['url0301_RAS'] = "<LOC url0301_RAS_help>Support Armored Command Unit. Enhanced during construction with a Resource Allocation System.",
     ['url0301_Stealth'] = "<LOC url0301_Stealth_help>Support Armored Command Unit. Enhanced during construction with the personal stealth generator enhancement.",
+	['url0301_SupportSpeed'] = "<LOC url0301_AccelerationSupport_help>Support Armored Command Unit. Enhanced during construction with the nanite missile system, acceleration field and engineering upgrade enhancement.",
+	['url0301_SupportStealth'] = "<LOC url0301_StealthSupport_help>Support Armored Command Unit. Enhanced during construction with the nanite missile system, stealth field and engineering upgrade enhancement.",
 
     -- CYBRAN -- Land Units
     ['url0101'] = "<LOC Unit_Description_0124> Fast, lightly armored reconnaissance vehicle. Equipped with a cloaking field.",
@@ -266,6 +273,7 @@ Description = {
     ['xrb0304'] = "<LOC Unit_Description_0452> Automatically repairs, reclaims, assists or captures any unit within its operational radius. This upgrade increases build power and operational radius.",
 
     ['xrb2308'] = "<LOC Unit_Description_0325> Submerged torpedo launcher. Capable of destroying the largest of enemy vessels.",
+    ['xrb2309'] = "<LOC Unit_Description_0325> Submerged torpedo launcher. Capable of destroying the largest of enemy vessels.",
     ['xrb3301'] = "<LOC Unit_Description_0326> Offers complete line-of-sight within its operational area.",
     ['urb2304'] = "<LOC Unit_Description_0185> High-end anti-air tower. Designed to engage all levels of aircraft.",
     ['urb4302'] = "<LOC Unit_Description_0186> Strategic missile defense. Protection is limited to the structure's operational area.",
@@ -344,16 +352,19 @@ Description = {
     ['ual0301-tsg'] = "<LOC Unit_Description_0171> Creates a protective shield around the SACU.",
     ['ual0301-htsg'] = "<LOC Unit_Description_0172> Upgrades the SACU's protective shield. Requires Energy to run.",
     ['ual0301-ss'] = "<LOC Unit_Description_0173> Equips the standard SACU's Reacton cannon with area-of-effect damage.",
-    ['ual0301-sic'] = "<LOC Unit_Description_0174> Greatly increases the speed at which the SACU repairs itself.",
     ['ual0301-pqt'] = "<LOC Unit_Description_0175> Adds teleporter. Requires considerable Energy to activate.",
+	['ual0301-cba'] = "<LOC Unit_Description_00467> Increases the SACU's gun range.",
+	['ual0301-hsa'] = "<LOC Unit_Description_00468> Increases the SACU's gun projectile damage.",
+	['ual0301-cd'] = "<LOC Unit_Description_00469> Adds the chrono dampener.",
 
     -- AEON -- Support Commander Presets
     ['ual0301_Engineer']     = "<LOC ual0301_Engineer_help> Support Armored Command Unit. Enhanced during construction with rapid fabrication enhancement.",
-    ['ual0301_NanoCombat'] = "<LOC ual0301_NanoCombat_help>Support Armored Command Unit. Enhanced during construction with the reacton refractor and nano-repair system enhancements.",
-    ['ual0301_Rambo'] = "<LOC ual0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a heavy personal shield and the reacton refractor enhancements.",
+    ['ual0301_Rambo'] = "<LOC ual0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a heavy personal shield, gun range and gun projectile damage enhancements.",
     ['ual0301_RAS'] = "<LOC ual0301_RAS_help>Support Armored Command Unit. Enhanced during construction with a Resource Allocation System.",
     ['ual0301_ShieldCombat'] = "<LOC ual0301_ShieldCombat_help>Support Armored Command Unit. Enhanced during construction with a personal shield and the reacton refractor enhancements.",
     ['ual0301_SimpleCombat'] = "<LOC ual0301_SimpleCombat_help>Support Armored Command Unit. Enhanced during construction with the reacton refractor enhancement.",
+	['ual0301_AoECombat'] = "<LOC ual0301_AoECombat_help>Support Armored Command Unit. Enhanced during construction with gun area-of-effect, gun range and light shield enhancement.",
+	['ual0301_Support'] = "<LOC ual0301_Support_help>Support Armored Command Unit. Enhanced during construction with chrono dampener, engineering upgrade and light shield enhancement.",
 
     -- AEON -- Land Units
     ['ual0101'] = "<LOC Unit_Description_0223> Fast, lightly armored reconnaissance vehicle. Armed with a laser and a state-of-the-art sensor suite.",
@@ -488,20 +499,20 @@ Description = {
     ['xsl0301'] = "<LOC Unit_Description_0433> A multi-purpose construction, repair, capture and reclamation unit. Equivalent to a Tech 3 Engineer.",
     ['xsl0301-tmu'] = "<LOC Unit_Description_0434> Mounts a tactical cruise missile launcher onto the back of the SACU.",
     ['xsl0301-dss'] = "<LOC Unit_Description_0435> Increases the speed at which the SACU repairs itself. Also increases hit points.",
-    ['xsl0301-sre'] = "<LOC Unit_Description_0436> Greatly expands the range of the standard on-board SACU sensor systems, including Omni.",
+    ['xsl0301-cba'] = "<LOC Unit_Description_0436> Increases the SACU's gun range.",
     ['xsl0301-efm'] = "<LOC Unit_Description_0437> Speeds up all engineering-related functions.",
-    ['xsl0301-sp'] = "<LOC Unit_Description_0438> Adds a personal shield generator to the SACU.",
     ['xsl0301-pqt'] = "<LOC Unit_Description_0439> Adds teleporter. Requires considerable Energy to activate.",
     ['xsl0301-oc'] = "<LOC Unit_Description_0440> Single shot destroys most units. Consumes large amount of Energy.",
+	['xsl0301-nrf'] = "<LOC Unit_Description_0466> Adds a Restoration Aura.",
 
     -- SERAPHIM -- Support Commander Presets
-    ['xsl0301_AdvancedCombat'] = "<LOC xsl0301_AdvancedCombat_help>Support Armored Command Unit. Enhanced during construction with the enhanced sensor system, nano-repair system and overcharge enhancements.",
-    ['xsl0301_Combat'] = "<LOC xsl0301_Combat_help>Support Armored Command Unit. Enhanced during construction with the enhanced sensor system enhancement.",
+    ['xsl0301_Combat'] = "<LOC xsl0301_Combat_help>Support Armored Command Unit. Enhanced during construction with the gun upgrade enhancement.",
     ['xsl0301_Engineer'] = "<LOC xsl0301_Engineer_help>Support Armored Command Unit. Enhanced during construction with the rapid fabricator enhancement.",
     ['xsl0301_Missile'] = "<LOC xsl0301_Missile_help>Support Armored Command Unit. Enhanced during construction with the tactical missile launcher and rapid fabricator enhancements.",
     ['xsl0301_NanoCombat'] = "<LOC xsl0301_NanoCombat_help>Support Armored Command Unit. Enhanced during construction with the enhanced sensor system and nano-repair system enhancements.",
-    ['xsl0301_Rambo'] = "<LOC xsl0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with the personal shield generator, nano-repair system and overcharge enhancements.",
-
+    ['xsl0301_Rambo'] = "<LOC xsl0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with the enhanced sensor system, nano-repair system and overcharge enhancements.",
+	['xsl0301_Support'] = "<LOC xsl0301_Support_help>Support Armored Command Unit. Enhanced during construction with the engineering upgrade and regen aura enhancements.",
+	
     -- SERAPHIM -- Land Units
     ['xsl0101'] = "<LOC Unit_Description_0337> Light, fast mobile reconnaissance unit. When stationary, deploys cloaking and stealth fields.",
     ['xsl0201'] = "<LOC Unit_Description_0338> Lightly armored tank. Armed with a single cannon.",
